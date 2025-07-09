@@ -765,3 +765,80 @@ footer {
         font-size: 0.9rem;
     }
 }
+
+
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #357ab8;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Error styling for when fields are invalid */
+input:invalid,
+textarea:invalid {
+    border-color: #ff6b6b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    form {
+        padding: 15px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 10px;
+    }
+}
