@@ -176,7 +176,9 @@ header.scrolled {
     transition: var(--transition);
 }
 
-.desktop-nav ul li a:hover::after {
+.desktop-nav ul li a:hover {
+    color: green;
+    background: black;
     width: 100%;
 }
 
