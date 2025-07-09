@@ -177,8 +177,7 @@ header.scrolled {
 }
 
 .desktop-nav ul li a:hover {
-    color: white;
-    background: black;
+    color: green;
     width: 100%;
 }
 
