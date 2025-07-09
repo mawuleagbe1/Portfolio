@@ -827,7 +827,7 @@ button[type="submit"]:hover {
 /* Error styling for when fields are invalid */
 input:invalid,
 textarea:invalid {
-    border-color: #ff6b6b;
+    border-color: #2980b9;
 }
 
 /* Responsive adjustments */
