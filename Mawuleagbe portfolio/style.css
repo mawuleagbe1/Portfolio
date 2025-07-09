@@ -795,7 +795,7 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: blue;
+    border-color: #2980b9;
     outline: none;
     box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
 }
